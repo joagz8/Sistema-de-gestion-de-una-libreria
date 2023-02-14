@@ -1,0 +1,111 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    background-color: #ffffec;
+    width: 650px;
+    height: 1200px;
+}
+
+
+#textPrestar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 450px;
+    font-size: 20px;
+}
+
+#libroAPrestar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    bottom: 400px;
+    border-radius: 10px;
+    border: solid #95b8f6;
+    background-color: #ffffec;
+}
+
+#nombreAlumno{
+    position: relative;
+    right: 150px;
+    bottom: 380px;
+    border-radius: 10px;
+    border: solid #95b8f6;
+    display: flex;
+    text-align: center;
+    background-color: #ffffec;
+}
+
+#dniAlumno{
+    position: relative;
+    left: 150px;
+    bottom: 420px;
+    border-radius: 10px;
+    border: solid #95b8f6;
+    display: flex;
+    text-align: center;
+    background-color: #ffffec;
+}
+
+#fechaEntrega{
+    position: relative;
+    right: 150px;
+    bottom: 380px;
+    border-radius: 10px;
+    border: solid #95b8f6;
+    display: flex;
+    text-align: center;
+    background-color: #ffffec;
+}
+
+#fechaDevolucion{
+    position: relative;
+    left: 150px;
+    bottom: 420px;
+    border-radius: 10px;
+    border: solid #95b8f6;
+    display: flex;
+    text-align: center;
+    background-color: #ffffec;
+}
+#btnPrestar{
+    position: relative;
+    bottom: 800px;
+    left: 600px;
+    background-color: #c3dff9;
+}
+
+#btnPrestar:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#labelPrestar{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 710px;
+}
+
+#lista{
+    position: relative;
+    left: 450px;
+    bottom: 670px;
+}
+
+#btnSeleccionar{
+    background-color: #c3dff9;
+    position: relative;
+    left: 10px;
+    border-radius: 10px;
+}
+
+#btnSeleccionar:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}

@@ -1,0 +1,119 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    background-color: #ffffec;
+    width: 650px;
+    height: 1200px;
+}
+
+
+
+#textCatalogo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 500px;
+    font-size: 20px;
+}
+
+#escribirLibro{
+    position: relative;
+    bottom: 400px;
+    right: 30px;
+    border-radius: 10px;
+    border: solid #95b8f6;
+}
+
+#escribirAutor{
+    position: relative;
+    right: 30px;
+    bottom: 390px;
+    border-radius: 10px;
+    border: solid #95b8f6;
+
+}
+
+#btnGuardar{
+    position: relative;
+    bottom: 950px;
+    left: 800px;
+    background-color: #c3dff9;
+}
+
+#btnGuardar:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#escribir{
+    position: relative;
+    top: 20px;
+}
+
+#lista{
+    position: relative;
+    bottom: 850px;
+    left: 400px;
+    font-style: italic;
+}
+
+#btnEditar{
+    background-color: #c3dff9;
+    position: relative;
+    left: 10px;
+    border-radius: 10px;
+}
+
+#btnEditar:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#btnBorrar{
+    background-color: #c3dff9;
+    position: relative;
+    left: 5px;
+    border-radius: 10px;
+}
+#btnBorrar:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#btnEditarAutor{
+    position: relative;
+    left: 5px;
+    border-radius: 10px;
+}
+
+#btnEditarAutor:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#btnActualizar{
+    position: relative;
+    bottom: 955px;
+    background-color: #c3dff9;
+    left: 800px;
+}
+
+#btnActualizar:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#btnActualizarAutor{
+    position: relative;
+    bottom: 945px;
+    background-color: #c3dff9;
+    left: 800px;
+}
+
+#btnActualizarAutor:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}

@@ -1,0 +1,72 @@
+{
+  "libros": [
+    {
+      "titulo": "Romeo y Julieta",
+      "autor": "William Shakespeare",
+      "estado": 1,
+      "id": 1
+    },
+    {
+      "titulo": "Breve historia del tiempo",
+      "autor": "Stephen Hawking",
+      "estado": 0,
+      "id": 2
+    },
+    {
+      "titulo": "Sobre la relatividad y el tiempo",
+      "autor": "Albert Eintein",
+      "estado": 0,
+      "id": 3
+    },
+    {
+      "titulo": "Harry Potter 2",
+      "autor": "J K Rollin",
+      "estado": 1,
+      "id": 4
+    }
+  ],
+  "clientes": [
+    {
+      "nombre": "Joaquin Gonzalez",
+      "dni": "55382258",
+      "id": 1
+    },
+    {
+      "nombre": "Mariano Herrera",
+      "dni": "44582491",
+      "id": 2
+    },
+    {
+      "nombre": "Elias Joaquin Gonzalez",
+      "dni": "4466788",
+      "id": 3
+    },
+    {
+      "nombre": "",
+      "dni": "",
+      "id": 4
+    }
+  ],
+  "prestamo": [
+    {
+      "librosId": 1,
+      "librosNombre": "Romeo y Julieta",
+      "clientesId": 2,
+      "clientesNombre": "Mariano Herrera",
+      "clientesDni": "44582491",
+      "fechaEntrega": "12-8-22",
+      "fechaDevolucion": "30-8-22",
+      "id": 1
+    },
+    {
+      "librosId": 2,
+      "librosNombre": "Breve historia del tiempo",
+      "clientesId": 4,
+      "clientesNombre": "",
+      "clientesDni": "",
+      "fechaEntrega": "2022-11-23",
+      "fechaDevolucion": "2022-11-22",
+      "id": 2
+    }
+  ]
+}

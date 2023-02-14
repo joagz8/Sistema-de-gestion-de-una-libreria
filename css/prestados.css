@@ -1,0 +1,189 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffec;
+    width: 650px;
+    height: 1200px;
+}
+
+#textPrestados{
+    position: relative;
+    bottom: 550px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#prestados{
+    position: relative;
+    bottom: 530px;
+    border-radius: 10px;
+    border: solid #95b8f6;
+    background-color: #ffffec;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#prestadosClientes{
+    position: relative;
+    left: 470px;
+    width: 150px;
+    bottom: 970px;
+    border-radius: 10px;
+    border: solid #95b8f6;
+    background-color: #ffffec;
+    display: flex;
+    text-align: center;
+}
+
+#dniCliente{
+    position: relative;
+    left: 730px;
+    width: 150px;
+    bottom: 1036px;
+    border-radius: 10px;
+    border: solid #95b8f6;
+    background-color: #ffffec;
+    display: flex;
+    text-align: center;
+}
+
+#fechaEntrega{
+    position: relative;
+    left: 470px;
+    width: 150px;
+    bottom: 1003px;
+    border-radius: 10px;
+    border: solid #95b8f6;
+    background-color: #ffffec;
+    display: flex;
+    text-align: center;
+}
+
+#fechaDevolucion{
+    position: relative;
+    left: 730px;
+    width: 150px;
+    bottom: 1070px;
+    border-radius: 10px;
+    border: solid #95b8f6;
+    background-color: #ffffec;
+    display: flex;
+    text-align: center;
+}
+
+#btnDevuelto{
+    position: relative;
+    left: 630px;
+    bottom: 1040px;
+    background-color: #c3dff9;
+}
+
+#btnActualizarAlumno{
+    position: relative;
+    bottom: 1040px;
+    left: 630px;
+    background-color: #c3dff9;
+}
+
+#btnDevuelto:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#btnActualizarAlumno:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#textLibro{
+    position: relative;
+    bottom: 1000px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#listaLibros{
+    position: relative;
+    left: 400px;
+    bottom: 980px;
+    font-style: italic;
+}
+
+#textAlumnos{
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 900px;
+}
+#listaClientes{
+     position: relative;
+     left: 400px;
+     bottom: 880px;
+     font-style: italic;
+}
+
+/*Botones*/
+
+#btnSeleccionar{
+    background-color: #c3dff9;
+    position: relative;
+    left: 15px;
+    border-radius: 10px;
+}
+
+#btnSeleccionar:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#btnEditarClientes{
+    background-color: #c3dff9;
+    position: relative;
+    left: 15px;
+    border-radius: 10px;
+}
+
+#btnEditarClientes:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/*Labels*/
+
+#labelPrestadosClientes{
+    position: relative;
+    bottom: 980px;
+    left: 510px;
+    color: #5086c1;
+    font-style: italic;
+}
+
+#labelDniCliente{
+    position: relative;
+    bottom: 1045px;
+    left: 790px;
+    color: #5086c1;
+    font-style: italic;
+}
+
+#labelEntrega{
+    position: relative;
+    bottom: 1010px;
+    left: 480px;
+    color: #5086c1;
+    font-style: italic;
+}
+
+#labelDevolucion{
+    position: relative;
+    bottom: 1080px;
+    left: 710px;
+    color: #5086c1;
+    font-style: italic;
+}
